@@ -1,5 +1,5 @@
 import * as functions from "firebase-functions";
 
 export const helloWorld = functions.https.onRequest((request, response) => {
-    response.send("Version 2");
+    response.send("Version 3");
 });
